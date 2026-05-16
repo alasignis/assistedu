@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "An ed-tech writing space for English learners with built-in calendar, calculator, timer, appointments, and a community comment board." },
       { name: "author", content: "Inkwell" },
       { property: "og:title", content: "Inkwell — Your Instructional Writing Assistant" },
-      { property: "og:description", content: "Plan, write, and improve your English — all in one focused workspace." },
+      { property: "og:description", content: "An ed-tech writing space for English learners with built-in calendar, calculator, timer, appointments, and a community comment board." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Inkwell — Your Instructional Writing Assistant" },
+      { name: "twitter:description", content: "An ed-tech writing space for English learners with built-in calendar, calculator, timer, appointments, and a community comment board." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6c98a3cb-e51b-4e1a-9950-24c9635b838d/id-preview-4711b078--cdd6dc34-e1cd-4e14-bbf9-c0576a435cdf.lovable.app-1778948467240.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6c98a3cb-e51b-4e1a-9950-24c9635b838d/id-preview-4711b078--cdd6dc34-e1cd-4e14-bbf9-c0576a435cdf.lovable.app-1778948467240.png" },
     ],
     links: [
       {
